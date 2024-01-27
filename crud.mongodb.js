@@ -2,11 +2,13 @@
 // crud opration
 
 
-use("curdDb")
-
-
 // create data 
-db.createCollection("mydata")
+
+use("curdDb") // name of main data base name
+
+
+
+db.createCollection("mydata") // create sub folder data of main data name
 
 
 // // create one data
